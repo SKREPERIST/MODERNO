@@ -32,6 +32,19 @@
 
 }
 
+
+/*******************************      960     ******/
+@media (max-width: 960px) {
+  .page-404__404::after {
+    background-size: cover;
+    width: 50px;
+    height: 97px;
+  }
+
+}
+
+
+
 /*******************************      900     ******/
 @media (max-width: 900px) {
   .footer__inner {
@@ -103,6 +116,30 @@
 
 }
 
+/*******************************      740     ******/
+@media (max-width: 740px) {
+  .page-404__404 {
+    font-size: 200px;
+    line-height: 200px;
+  }
+
+  .page-404__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+  .page-404__text {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .page-404__link {
+    padding: 10px 30px 8px;
+  }
+
+}
+
 
 /*******************************      640     ******/
 @media (max-width: 640px) {
@@ -114,6 +151,24 @@
 
   .circle__menu {
     right: auto;
+  }
+}
+
+
+/*******************************      600     ******/
+@media (max-width: 600px) {
+  .page-404__inner {
+    padding: 0 15px;
+  }
+
+  .page-404__404 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .page-404__404::after {
+    top: 16px;
+    right: 0;
   }
 }
 
