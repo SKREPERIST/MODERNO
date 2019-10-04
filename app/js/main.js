@@ -59,6 +59,9 @@ $(function () {
   });
 
 
+  $('input[type="file"], select').styler();
+
+
   if ($('.products__inner-box').length) {
     var mixer = mixitup('.products__inner-box');
   } else {};
