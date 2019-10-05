@@ -89,7 +89,26 @@
     display: block;
   }
 
+  .profile__inner {
+    flex-direction: column;
+  }
 
+  .profile__aside {
+    max-width: 100%;
+
+    .aside__item {
+      width: 100%;
+    }
+
+    .profile__aside-btn {
+      width: 300px;
+    }
+  }
+
+  .profile__content {
+    margin-bottom: 20px;
+    order: -1;
+  }
 
 }
 
@@ -195,6 +214,29 @@
   .circle__menu {
     right: auto;
   }
+
+  .profile__banner-images {
+    min-height: 245px;
+  }
+
+  .profile__items {
+    display: block;
+  }
+
+  .profile__item {
+    width: 100%;
+
+    &+& {
+      border-left: none;
+      border-top: 1px solid #dedede;
+    }
+  }
+
+  .profile__banner {
+    margin-bottom: 20px;
+  }
+
+
 }
 
 
@@ -260,6 +302,14 @@
 
   .contact__map iframe {
     height: 300px;
+  }
+
+  .personal-box {
+    padding: 35px 10px 25px;
+  }
+
+  .profile__aside-btn {
+    width: 280px;
   }
 
 }
