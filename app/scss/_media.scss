@@ -21,6 +21,27 @@
     width: 100%;
   }
 
+  .productmini {
+    max-width: 48%;
+  }
+
+  .product-one__inner {
+    display: block;
+
+    .aside__item {
+      width: 100%;
+    }
+  }
+
+  .product-one__content {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .produc-one__images {
+    max-width: 100%;
+  }
+
 }
 
 /*******************************      1150     ******/
@@ -171,11 +192,15 @@
     .upload__inner button {
       margin-left: 0;
     }
-
   }
 
+  .product-one__box {
+    display: block;
+  }
 
-
+  .product-one__link {
+    margin-bottom: 20px;
+  }
 }
 
 /*******************************      740     ******/
@@ -234,6 +259,10 @@
 
   .profile__banner {
     margin-bottom: 20px;
+  }
+
+  .productmini {
+    max-width: 100%;
   }
 
 
@@ -311,6 +340,41 @@
   .profile__aside-btn {
     width: 280px;
   }
+
+  .product-one__tabs {
+    .tabs {
+      display: block;
+
+      .tab {
+        display: block;
+
+        &+.tab {
+          border-top: 1px solid #d7d7d7;
+        }
+      }
+    }
+  }
+
+  .tab-items__list {
+    column-count: 1;
+    column-gap: 0px;
+  }
+
+  .product-one__link {
+    a {
+      width: 100%;
+      margin-bottom: 15px;
+
+      &+a {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .product-one__images {
+    height: 300px;
+  }
+
 
 }
 
