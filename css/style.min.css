@@ -2446,6 +2446,41 @@ button.icon-unsorted {
   font-weight: 500;
 }
 
+/* STYLE BUTTON */
+.price__box .jq-selectbox__select {
+  height: 27px;
+  padding: 0 27px 0 11px;
+  border: 1px solid #d3d3d3;
+  border-bottom-color: #d3d3d3;
+  border-radius: 0;
+  background: #f2f5f8;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 13px;
+  line-height: 27px;
+  color: #83949c;
+  text-shadow: none;
+}
+
+.price__box .jq-selectbox__trigger {
+  border-left: none;
+}
+
+.price__box .jq-selectbox {
+  margin-top: -5px;
+}
+
+.price__box .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #8bc34a;
+}
+
+.price__box .jq-selectbox__trigger-arrow {
+  top: 11px;
+  right: 13px;
+  border-top-color: #8bc34a;
+}
+
+/* STYLE BUTTON */
 /****************    404    ************/
 .page-404__wrapper,
 .about__wrapper,
@@ -2833,6 +2868,31 @@ button.icon-unsorted {
   color: #707070;
 }
 
+/* SELECT STYLE */
+.settings__line .jq-selectbox {
+  max-width: 540px;
+  width: 100%;
+}
+
+.settings__line .jq-selectbox__select {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #dedede;
+  border-bottom-color: #dedede;
+  border-radius: 0;
+  background: #f9f9f9;
+  font-size: 14px;
+  line-height: 40px;
+  color: #8b8b8b;
+}
+
+.settings__line .jq-selectbox__trigger-arrow {
+  top: 18px;
+  right: 13px;
+  border-top-color: #111;
+}
+
+/* SELECT STYLE */
 /****************    PROFILE   ************/
 .profile__inner {
   display: -webkit-box;
@@ -3178,6 +3238,7 @@ button.icon-unsorted {
   font-family: 'Roboto-Regular', sans-serif;
   color: #707070;
   text-shadow: none;
+  font-size: 14px;
   line-height: 40px;
 }
 
@@ -3194,11 +3255,11 @@ button.icon-unsorted {
   font-family: 'icomoon';
 }
 
-.upload-line .jq-selectbox__trigger {
+.jq-selectbox__trigger {
   border-left: none;
 }
 
-.upload-line .jq-file {
+.jq-file {
   width: 100%;
   border-radius: 0;
   -webkit-box-shadow: none;
@@ -3208,7 +3269,7 @@ button.icon-unsorted {
   border: 1px solid #d7d7d7;
 }
 
-.upload-line .jq-file__name {
+.jq-file__name {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
@@ -3228,7 +3289,7 @@ button.icon-unsorted {
   cursor: pointer;
 }
 
-.upload-line .jq-file__browse {
+.jq-file__browse {
   position: absolute;
   top: 5px;
   right: auto;
